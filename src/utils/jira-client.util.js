@@ -13,7 +13,7 @@ function extractIssueNumber(str) {
   const issueId = result?.[0];
 
   if (!issueId) {
-    throw new Error("Issue number is invalid");
+    throw new Error("Provided issue ID is invalid");
   }
 
   const [code, number] = issueId.split('-');
