@@ -2,10 +2,9 @@
 
 import { input, password, select } from "@inquirer/prompts";
 import chalk from "chalk";
-import { getCommitMessage } from "../src/commands/get-commit-message.js";
-import { getTimeLabel } from "../src/commands/get-time-label.js";
-import { getCurrentUser, initJiraClient } from "../src/lib/jira-client.js";
-import { getConfigEntry, loadAppConfig, setConfigEntry } from "../src/utils/config.util.js";
+import { getCommitMessage, getTimeLabel } from "../src/commands/index.js";
+import { getCurrentUser, initJiraClient } from "../src/lib/index.js";
+import { getConfigEntry, loadAppConfig, setConfigEntry } from "../src/utils/index.js";
 
 async function start() {
   try {

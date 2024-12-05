@@ -1,5 +1,5 @@
 import JiraApi from 'jira-client';
-import { getConfigEntry } from "../utils/config.util.js";
+import { getConfigEntry } from "../utils/index.js";
 
 let api = null;
 
