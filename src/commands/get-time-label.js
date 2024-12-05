@@ -1,7 +1,6 @@
 import chalk from "chalk";
-import { getEpicIssueId } from "../lib/jira-client.js";
-import { copyToClipboard } from "../utils/clipboard.util.js";
-import { promptIssue } from "../utils/jira-client.util.js";
+import { getEpicIssueId } from "../lib/index.js";
+import { copyToClipboard, promptIssue } from "../utils/index.js";
 
 const epicLabelPattern = "EPIC <EPIC_ID>";
 const ticketLabelPattern = "TICKET <TICKET_ID>";
